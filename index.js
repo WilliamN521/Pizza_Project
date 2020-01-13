@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const { graphqlExpress, graphiqlExpress } = require("graphql-server-express");
 //variables 
 const PORT = 3000;
-const endPoint = '/pizza_api';
+const endPoint = 'pizza_api';
 const schema = {};
 
 //instanciar servidor 
